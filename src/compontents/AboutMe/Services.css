@@ -1,0 +1,61 @@
+/* Service Section Styling */
+.services {
+  margin-top: 4rem;
+  height: 55vh;
+  background-color: #111;
+  cursor: default;
+}
+.services .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 30px;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.services .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 230px;
+  height: 3px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+
+.services .title::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.services .title::after {
+  font-size: 20px;
+  font-weight: bold;
+  content: "What I Provide";
+}
+.services .serv-content .card {
+  width: calc(80% - 10px);
+  background: #222;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px 25px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+.icon {
+  color: #ff0000;
+  font-size: 3.5rem;
+  padding: 0.5rem;
+}

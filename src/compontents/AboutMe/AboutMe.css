@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+.navbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px) saturate(120%);
+  background-color: rgba(97, 218, 240, 0.774);
+  height: 11vh;
+  padding: 0 2rem;
+  cursor: default;
+}
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar.logo a span {
+  color: #ffffff;
+}
+.navbar .logo a span {
+  color: #ff0000;
+  transition: all 0.3s ease;
+}
+.listStyle {
+  width: 50rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.listStyle li a {
+  width: 6rem;
+  font-size: 1.2rem;
+  color: white !important;
+}
+.listStyle li a:hover,
+.listStyle li a:active {
+  color: #ff0000 !important;
+  transition: all 0.1s ease;
+}
+@media (max-width: 800px) {
+  .listStyle {
+    width: 10rem;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .navbar-toggler {
+    background-color: white;
+    color: black !important;
+  }
+}

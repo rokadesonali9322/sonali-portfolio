@@ -1,0 +1,52 @@
+	
+ @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese');
+
+
+ /* work and code text  */
+.section{
+ position:relative;
+ width: 100%;
+ display: block;
+}
+.full-height {
+ height: 100vh;
+}
+.shadow-title,
+.shadow-titl
+{
+	position:fixed;
+	top: 0;
+	width: 100%;
+	height: 300%;
+	text-align: left;
+	font-family: 'Muli', sans-serif;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	font-size: 18vw;
+	line-height: 1;
+	color: rgba(200,200,200,.1);
+	background: linear-gradient(90deg, rgba(200,200,200,0), rgba(200,200,200,0.35));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 900;
+	z-index: 1;
+}
+.shadow-title{
+  margin-top: 30px;
+	left: 20px;
+}
+.shadow-titl{
+	margin-top: 350px;
+	left: 1040px;
+}
+/* background-image section */
+.section-parallax{
+position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}

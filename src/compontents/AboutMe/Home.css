@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+.home {
+  height: 89vh;
+  width: 100vw;
+  background: url("../Asset/mern2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+  opacity: 0.8;
+  cursor: default;
+  font-family: poppins;
+  background-color: blue;
+}
+.home .max-width {
+  padding: 6rem 0;
+  color: white;
+}
+.home-content {
+  width: 100%;
+  color: #fff;
+}
+.home_ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0 !important;
+  margin-bottom: 20px;
+}
+.home_ul li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ff4a57;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.home_ul li:hover {
+  background: #fff;
+  border: 2px solid transparent;
+}
+.home_ul li:hover .home_Icon {
+  color: #ff4a57;
+}
+.home .home-content .text-1 {
+  font-size: 35px;
+  font-weight: 500;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.home .home-content .text-2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 5.2rem;
+  margin-left: -3px;
+  -webkit-text-stroke: 1px rgb(78, 77, 77);
+}
+.home .home-content .text-3 {
+  font-size: 27px;
+  font-weight: 500;
+  word-spacing: 3px !important;
+  letter-spacing: 2px !important;
+}
+.text-3 span {
+  letter-spacing: 2px;
+  font-size: 2rem;
+  word-spacing: 3px;
+  font-weight: normal;
+  -webkit-text-stroke: 1px rgb(245, 40, 40);
+  color: rgb(247, 39, 39);
+}
+.home .home-content a {
+  display: inline-block;
+  background-color: crimson;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border: 2px solid crimson;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.home .home-content a:hover {
+  color: #fff;
+  background: none;
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px crimson, 0 0 50px rgb(255, 117, 145);
+  }
+}
+
+@media (max-width: 800px) {
+  .max-width {
+    padding: 0 23px;
+  }
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+  .home .home-content .text-3 {
+    font-size: 32px;
+  }
+  .home .home-content a {
+    font-size: 20px;
+  }
+}

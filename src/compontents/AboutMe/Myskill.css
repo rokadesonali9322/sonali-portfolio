@@ -1,0 +1,164 @@
+.skill {
+  cursor: default;
+  padding: 2rem 0;
+}
+.skill .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.skill .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 260px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+
+.skill .title::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.skill .title::after {
+  font-size: 20px;
+  font-weight: bold;
+  content: "My Technical Level";
+}
+.skill_box {
+  width: 37rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill_box h4 {
+  width: 10rem;
+  padding-left: 1rem;
+  padding: 0.8rem 0;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.progress_bar {
+  background: #c2c0c0;
+  width: 37rem;
+  margin-left: 5px;
+  height: 11px;
+  border-radius: 5px;
+}
+.progress_bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+  background-color: crimson;
+}
+.progress_bar div span {
+  height: 40px;
+  width: 40px;
+  /* padding: 0.5px; */
+  letter-spacing: 0.8px;
+  font-size: 15px;
+  border-radius: 50%;
+  float: right;
+  margin-right: -20px;
+  margin-top: -15px;
+  background: #fff;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.html {
+  animation: html 1s linear forwards;
+}
+.git {
+  animation: git 1s linear forwards;
+}
+.css {
+  animation: css 1s linear forwards;
+}
+.github {
+  animation: github 1s linear forwards;
+}
+.javscript {
+  animation: javascript 1s linear forwards;
+}
+.nodejs {
+  animation: nodejs 1s linear forwards;
+}
+.bootstrap {
+  animation: bootstrap 1s linear forwards;
+}
+.expressjs {
+  animation: expressjs 1s linear forwards;
+}
+.react {
+  animation: react 1s linear forwards;
+}
+.mangodb {
+  animation: mangodb 1s linear forwards;
+}
+@keyframes html {
+  100% {
+    width: 85%;
+  }
+}
+@keyframes git {
+  100% {
+    width: 75%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes github {
+  100% {
+    width: 87%;
+  }
+}
+@keyframes javascript {
+  100% {
+    width: 75%;
+  }
+}
+@keyframes nodejs {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes bootstrap {
+  100% {
+    width: 85%;
+  }
+}
+@keyframes expressjs {
+  100% {
+    width: 65%;
+  }
+}
+@keyframes react {
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes mangodb {
+  100% {
+    width: 70%;
+  }
+}
